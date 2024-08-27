@@ -9,8 +9,8 @@ require'rest/r_tambah.php';
 require'rest/r_tampil.php';
 } else if ($url==='r_detail'){
 require'rest/r_detail.php';	
-} else if ($url==='r_edit'){
-require'rest/r_edit.php';
+} else if ($url==='r_update'){
+require'rest/r_update.php';
 } else if ($url==='r_hapus'){
 require'rest/r_hapus.php';
 } else if ($url==='c_tampil'){
