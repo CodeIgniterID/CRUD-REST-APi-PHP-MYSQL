@@ -8,7 +8,3 @@ Desain layout menggunakan html, CDN Bootstrap dan Jquery JS.
 
 NOTE: tambahkan file .htaccess pada root folder utama.
 
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.+?)/?$ index.php?url=$1 [L,QSA]
