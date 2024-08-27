@@ -40,7 +40,7 @@ CREATE TABLE `produk` (
 --
 
 INSERT INTO `produk` (`id`, `nama`, `harga`, `stok`) VALUES
-(130, '1', 1, 1);
+(1, 'kopi', 24000, 100);
 
 --
 -- Indexes for dumped tables
