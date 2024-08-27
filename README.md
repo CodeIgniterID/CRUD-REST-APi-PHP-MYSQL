@@ -5,11 +5,10 @@ REST API PHP Mysql akan menampilkan data json dan memiliki rest untuk insert, ed
 
 CLIENT Api menampikan data view, edit, hapus, dan detail data mengambil data dari rest API dilengkapi dengan AJAX JQUERY dalam proses POST, PUT, DELETE dan GET.
 Desain layout menggunakan html, CDN Bootstrap dan Jquery JS.
----------
+
 NOTE: tambahkan file .htaccess pada root folder utama.
 
 RewriteEngine on
-# internal forward from pretty URL to actual one
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+?)/?$ index.php?url=$1 [L,QSA]
