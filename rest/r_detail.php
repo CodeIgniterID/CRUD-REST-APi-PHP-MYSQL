@@ -10,7 +10,7 @@ require'koneksi_db.php';
     
     $tmp = $db->query($q);
     $data=$tmp->fetch_assoc();      
-    echo json_encode($data);
+    echo json_encode($data,JSON_NUMERIC_CHECK);
 
 
 ?>
